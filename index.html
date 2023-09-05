@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image:url("images1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .scrollable-text {
+            white-space: nowrap;
+            animation: scrollText 20s linear infinite;
+            font-size: 28px;
+            color: #241313;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .blinking-text {
+            animation: blinkText 3s alternate infinite;
+            font-size: 24px;
+            color:rgb(17, 17, 9);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @keyframes blinkText {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+    <title>CSS Animation Demo</title>
+</head>
+<body>   </div>
+    <div class="blinking-text">
+       <p>
+   SAVE THE BENGAL TIGER
+       </p> 
+    </div>
+
+
+    <img src="download.jpg">
+</div>
+<div>
+<div class="container">
+    <div class="scrollable-text">
+        <p>Don't be wild to tigers; save them! Hear them roar, for they may be no more.</p>
+      </div>
+      <div>
+<div class="blinking-text">
+    <P>  Say ‘NO’ to tiger trade by refusing to buy tiger parts and items prepared from tiger derivatives. Speak to tiger and wild ungulate poachers and persuade them to give up poaching. If you know of any information on poaching or trade of illegal wildlife, inform the local law enforcement agencies. You can also contact TRAFFIC- an organisation fighting the powerful poachers and pass on the information to them.
+</P> </div>
+</div>
+</body>
+</html>
